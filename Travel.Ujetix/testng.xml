@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+	
+	<listeners>
+		<listener class-name="ujetix.genericutilities.ListnerImplementation"></listener>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="admin.ConfirmTheBooking"/>
+      <class name="jdbc.ExcelDataProvider2"/>
+      <class name="admin.Admin"/>
+      <class name="admin.CreateTourPackageInt"/>
+      <class name="jdbc.DataProviderPractice"/>
+      <class name="admin.IssueRemarks"/>
+      <class name="jdbc.TestNgPractice"/>
+      <class name="admin.TourPackage1"/>
+      <class name="jdbc.DataProviderClass2"/>
+      <class name="admin.TourPackage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
