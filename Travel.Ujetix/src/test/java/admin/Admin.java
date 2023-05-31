@@ -28,7 +28,7 @@ public class Admin extends BaseClass {
 	
 	
 	
-	// hello how 
+	// this testscript for create Tour Package and verify issue
 	@Test(groups = "smokeTest")
 	public  void createTourPackageAndVerifyIssue() throws Throwable {
 		
