@@ -28,7 +28,7 @@ public class Admin extends BaseClass {
 	
 	
 	
-	
+	// hello how 
 	@Test(groups = "smokeTest")
 	public  void createTourPackageAndVerifyIssue() throws Throwable {
 		
@@ -41,7 +41,7 @@ public class Admin extends BaseClass {
 		String username = fu.getPropertyData("username");
 		
 		
-		// login as admin
+		// login as admin  hrllo
 		HomePage h=new HomePage(driver);
 		AdminHomePage ah=new AdminHomePage(driver);
 		ah.clickCreatePackage(driver, u);
